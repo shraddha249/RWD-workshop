@@ -1,0 +1,71 @@
+.div2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.div2 li {
+  float: left;
+}
+
+.div2 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.div2 li a:hover {
+  background-color: #111;
+}
+
+.div3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  grid-auto-rows: minmax(100px, auto);
+  background-color: lightgray;
+}
+
+@media (max-width: 797px) {
+  .div3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: lightgreen;
+  }
+}
+
+.div1 {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+@media all and (orientation: portrait) {
+  .wrapper {
+    background: #8b79cf;
+    width: 90%;
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
